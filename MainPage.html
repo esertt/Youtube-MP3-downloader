@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Youtube-Music-Player</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>Youtube Music Player</h1>
+    <form id="youtubeForm">
+        <div class="alerMessage"></div>
+        <div>
+          <hr>
+            <label for="link">Music Link</label>
+            <input type="text" id="link"></input>
+        </div>
+        <input class="button" type="submit" value="submit"></input>
+      </form>
+    <div class="musicReady" for="popUp"></div>
+    
+    <script type="module" src="main.js"></script>
+    <script type="module" src="api.js"></script>
+  </body>
