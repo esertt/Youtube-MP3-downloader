@@ -6,4 +6,4 @@
  first you need to "purchase" this api from this website:
  https://rapidapi.com/ytjar/api/youtube-mp36/
 
- then you need to change API_KEY with the api key that you will have.
+ then you need to change API_KEY in api.js file with the api key that you will have.
